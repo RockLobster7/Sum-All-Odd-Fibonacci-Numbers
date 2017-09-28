@@ -5,9 +5,9 @@ Given a positive integer num, return the sum of all odd Fibonacci numbers that a
 The first two numbers in the Fibonacci sequence are 1 and 1. Every additional number in the sequence is the sum of the two previous numbers. The first six numbers of the Fibonacci sequence are 1, 1, 2, 3, 5 and 8.
 
 For example, sumFibs(10) should return 10 because all odd Fibonacci numbers less than 10 are 1, 1, 3, and 5.
-
-*/
-
+*/ 
+// recursive example
+// https://www.thepolyglotdeveloper.com/2015/01/fibonacci-sequence-printed-javascript/
 // function fibonacci(num) {
 //     if (num <= 1) return 1;
 //     return fibonacci(num - 1) + fibonacci(num - 2);
